@@ -2,14 +2,12 @@
 Neural Networks and Deep Learning Models
 
 ## Overview of the analysis:
-For this analysis, created a six different supervised machine learning models that could predict credit risks. Following models were used to predict the credit risk.
+The purpose of this analysis to create a deep-learning neural network to analyze and classify the success of charitable donations.
 
- * Naive Random Oversampling
- * SMOTE Oversampling
- * Cluster Centroid Undersampling
- * SMOTEENN Sampling
- * Balanced Random Forest Classifying
- * Easy Ensemble Classifying
+Following method are used for the analysis:
+  * Preprocessing the data for the neural network using the TensorFlow platform in Python
+  * Compile, Train and Evaluate the Model
+  * Optimizing the model
 
 ## Results:
 ### Data Preprocessing
@@ -81,3 +79,8 @@ For this analysis, created a six different supervised machine learning models th
     ![image](https://user-images.githubusercontent.com/79486450/125228202-6874da80-e2a2-11eb-930c-e8b6b4fe5b45.png)   
     
 ## Summary:
+
+After the optimization, the model scored an accuracy of 72%; The initial neural network had an accuracy score of 46%.
+Therefore, the deep learning neural network model did not reach the target of 75% accuracy even after the optimization.
+To solve this classification problem, it is recommended to use supervised machine learning model - Random Forest Classifier.
+The reason is random forest algorithm creates decision trees on data samples and then gets the prediction from each of them and finally generate a classified output.
