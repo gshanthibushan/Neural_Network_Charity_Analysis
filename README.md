@@ -41,16 +41,43 @@ For this analysis, created a six different supervised machine learning models th
 
   * Were you able to achieve the target model performance?
     
-    *The model was not able to reach the target 75%. The accuracy for my model was 46%.
+    *The model was not able to reach the target 75%. The accuracy for my model was 46%.*
     ![image](https://user-images.githubusercontent.com/79486450/125227412-dc15e800-e2a0-11eb-8b2f-3cd3bf6101aa.png)
 
   * What steps did you take to try and increase model performance?
   
+    *Attempt1:  Resulted Accuracy of 72%*
     |  **Layers**  |  **Neurons**  |  **Activation functions**  |                                            
     |  :---  |  :---  |  :---  |
-    |  First hidden layer  |  80  |  relu  | 
-    |  Second hidden layer  |  30  |  relu  |   
+    |  First hidden layer  |  99  |  relu  | 
+    |  Second hidden layer  |  66  |  relu  |
+    |  Third hidden layer  |  33  |  relu  |
     |  Output layer  |  --  |  sigmoid  |
     
+    ![image](https://user-images.githubusercontent.com/79486450/125227583-26976480-e2a1-11eb-992d-22da2cb25846.png)
+    ![image](https://user-images.githubusercontent.com/79486450/125227867-ac1b1480-e2a1-11eb-9468-ff4ca4a46e58.png)
+
+    *Attempt2:  Resulted Accuracy of 71%*
+    |  **Layers**  |  **Neurons**  |  **Activation functions**  |                                            
+    |  :---  |  :---  |  :---  |
+    |  First hidden layer  |  100  |  relu  | 
+    |  Second hidden layer  |  75  |  relu  |
+    |  Third hidden layer  |  50  |  relu  |
+    |  Fourth hidden layer  |  25  |  relu  |
+    |  Output layer  |  --  |  selu  |
+    
+    ![image](https://user-images.githubusercontent.com/79486450/125228057-0d42e800-e2a2-11eb-95b0-297f92caef58.png)
+    ![image](https://user-images.githubusercontent.com/79486450/125228082-1f248b00-e2a2-11eb-9a0a-7d48949c567b.png)
+
+    *Attempt3:  Resulted Accuracy of 72%*
+    |  **Layers**  |  **Neurons**  |  **Activation functions**  |                                            
+    |  :---  |  :---  |  :---  |
+    |  First hidden layer  |  99  |  relu  | 
+    |  Second hidden layer  |  66  |  relu  |
+    |  Third hidden layer  |  33  |  relu  |
+    |  Output layer  |  --  |  tanh |
+    
+    ![image](https://user-images.githubusercontent.com/79486450/125228147-4bd8a280-e2a2-11eb-8ebf-7e507ed5acb3.png)
+    ![image](https://user-images.githubusercontent.com/79486450/125228202-6874da80-e2a2-11eb-930c-e8b6b4fe5b45.png)   
     
 ## Summary:
